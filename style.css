@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+#form-background,
+#form {
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+#form-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/thors-wrath.jpg);
+    background-size: cover;
+    background-color: brown;
+}
+
+#logo-div {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background-color: rgb(135, 206, 250, 0.5);
+    height: 8rem;
+    width: 100%;
+    padding-left: 4rem;
+    margin-top: -10rem;
+}
+
+#logo {
+    width: 14%;
+    height: auto;
+}
+
+#logo-div h1 {
+   margin: 0 auto;
+   font-size: 5vw;
+   color: #8b0000;
+}
+
+#form {
+    background-color: aliceblue;
+}
