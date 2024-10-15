@@ -30,25 +30,26 @@
             <section id="fields">
                 <span>
                     <label for="firstname">FIRST NAME</label>
-                    <input type="text" id="firstname" name="firstname">
+                    <input type="text" id="firstname" name="firstname" required />
 
                     <label for="email">EMAIL</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" id="email" name="email" required />
 
                     <label for="password">PASSWORD</label>
-                    <input type="text" id="password" name="password">
+                    <input type="text" id="password" name="password" required />
+                    <p id="password-match-text">*Passwords do not match</p>
 
                 </span>
 
                 <span>
                     <label for="lastname">LAST NAME</label>
-                    <input type="text" id="lastname" name="lastname">
+                    <input type="text" id="lastname" name="lastname" required />
 
                     <label for="phonenumber">PHONE NUMBER</label>
-                    <input type="text" id="phonenumber" name="phonenumber">
+                    <input type="text" id="phonenumber" name="phonenumber" placeholder="Optional" />
 
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="text" id="confirm-password" name="confirm-password">
+                    <input type="text" id="confirm-password" name="confirm-password" required />
                 </span>
             </section>
             <section id="submit-section">
@@ -59,6 +60,7 @@
             </section>
         </form>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
