@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asgards Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
         <div id="form-background">
@@ -18,16 +20,45 @@
             <section id="intro">
                 <p>
                     This is not a real online service! You know you need something <br>
-                     like this in your life to help you realize your deepest dreams. <br>
+                    like this in your life to help you realize your deepest dreams. <br>
                     Sign up <i>now</i> to get started.
                 </p>
                 <p>
                     You <i>know</i> you want to.
                 </p>
             </section>
-            <section id="fields"></section>
-            <section id="submit"></section>
+            <section id="fields">
+                <span>
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname" name="firstname">
+
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="password">PASSWORD</label>
+                    <input type="text" id="password" name="password">
+
+                </span>
+
+                <span>
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname">
+
+                    <label for="phonenumber">PHONE NUMBER</label>
+                    <input type="text" id="phonenumber" name="phonenumber">
+
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="text" id="confirm-password" name="confirm-password">
+                </span>
+            </section>
+            <section id="submit-section">
+                <span>
+                    <button type="submit">Create Account</button>
+                <p>Already have and account? <a href="#">Log In</a></p>
+                </span>
+            </section>
         </form>
     </main>
 </body>
+
 </html>

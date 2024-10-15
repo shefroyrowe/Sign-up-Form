@@ -18,8 +18,7 @@ main {
 }
 
 #form-background,
-#form {
-    border: 1px solid black;
+form {
     height: 100%;
     width: 50%;
 }
@@ -69,11 +68,68 @@ section {
 }
 
 form section:nth-of-type(1) {
-    font-weight: bold;
+    font-weight: 600;
     padding: 2rem 2.5rem 0;
     font-size: 1.5vw;
 }
 
 form section:nth-of-type(1) p:nth-child(2) {
     margin-top: 1rem;
+}
+
+form section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input,
+label {
+    display: block;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    outline: none;
+    padding-left: 1rem;
+}
+
+input:hover {
+    border-color: blue;
+}
+
+form section:nth-of-type(3),
+button {
+    font-size: 1.1rem;
+}
+
+form section:nth-of-type(3) {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+button {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #8b0000;
+    background-color: #8b0000;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    border-color: #fff;
+}
+
+form section:nth-of-type(3) p a {
+   text-decoration: none;
+   color: #8b0000;
+   font-weight: bold;
 }
